@@ -1,0 +1,264 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: navy;
+    margin: 0;
+    overflow-x: hidden;
+}
+header{
+    width: 100vw;
+    height: 15vh;
+    position: fixed;
+    z-index: 20000;
+    background-color: navy;
+}
+
+.div1{
+    width: 400px;
+    aspect-ratio:1/1;
+    clip-path: polygon(78% 0, 0 0, 0 59%);
+    background-color: black;
+    margin: 0;
+    position: absolute;
+    top: 0;
+
+}
+header>div{
+    display: inline;
+}
+
+header>nav{
+    display: inline;
+    color: white;
+    margin: 20px;
+    position:absolute;
+    /*left: 500px;*/
+    right: 0;
+    top: 0;
+}
+header>nav>a{
+    margin: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+}
+.sec1{
+    height: 600px;
+    position: relative;
+    z-index: 2000;
+}
+.sec1>div:first-child{
+    position: relative;
+    top: 80px;
+}
+.sec1>h1{
+    position: relative;
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+    left: 500px;
+    top: -350px;
+}
+.sec1>p{
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    left: 500px;
+    top: -350px;
+}
+.div2{
+    position: relative;
+    left: 500px;
+    top: -300px;
+}
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 500px;
+    top: -350px;
+}
+.sec2{
+    position: relative;
+    z-index: 2000;
+}
+.sec2>h1{
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 500px;
+    top: 100px;
+}
+.sec2>div{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 500px;
+    top: 200px;
+}
+.sec2>div>p{
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.sec2>img{
+    position: relative;
+    left: 850px;
+    top: 100px;
+}
+.sec3{
+    position: relative;
+    z-index: 2000;
+}
+.sec3>h1{
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left:300px;
+    top: 100px;
+}
+.sec3>h3{
+    font-weight: bold;
+    color: red;
+    font-size: 25px;
+    position: relative;
+    left:200px;
+    top: 150px;
+    z-index: 2000;
+}
+footer>div{
+    display: inline;
+    margin: 100px;
+    /*position: ;*/
+}
+footer>div>a{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 17px;
+}
+footer{
+    width: 1200px;
+    height: 100px;
+    background-color: white;
+    position: relative;
+    top: 180px;
+    border-radius: 30px;
+    z-index: 2000;
+}
+footer>div>img{
+    position: relative;
+    top: 20px;
+}
+footer>div>img {
+    position: relative;
+}
+.divlast2{
+    width: 1200px;
+    aspect-ratio:1/1;
+    clip-path: polygon(0 78%, 0% 100%, 52% 100%);
+    background-color: black;
+    position: relative;
+    bottom: 1000px;
+}
+.sec3>div{
+    width: 400px;
+    height: 20px;
+    background-color: lightseagreen;
+    position: relative;
+    left: 450px;
+    top: 107px;
+    border-radius: 10px;
+}
+#ui{
+    width: 320px;
+    height: 15px;
+    background-color:red;
+    position: relative;
+    left:2px;
+    top: 2px;
+    border-radius: 10px;
+}
+#ui>h3{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: oblique;
+    position: relative;
+    left: 200px;
+}
+#video{
+    width: 340px;
+    height: 15px;
+    background-color:red;
+    position: relative;
+    left:2px;
+    top: 2px;
+    border-radius: 10px;
+}
+#video>h3{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: oblique;
+    position: relative;
+    left: 200px;
+}
+#photo{
+    width: 360px;
+    height: 15px;
+    background-color:red;
+    position: relative;
+    left:2px;
+    top: 2px;
+    border-radius: 10px;
+}
+#photo>h3{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: oblique;
+    position: relative;
+    left: 200px;
+}
+#thinking{
+    width: 312px;
+    height: 15px;
+    background-color:red;
+    position: relative;
+    left:2px;
+    top: 2px;
+    border-radius: 10px;
+}
+#thinking>h3{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: oblique;
+    position: relative;
+    left: 200px;
+}
+#progamming{
+    width: 296px;
+    height: 15px;
+    background-color:red;
+    position: relative;
+    left:2px;
+    top: 2px;
+    border-radius: 10px;
+}
+#progamming>h3{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: oblique;
+    position: relative;
+    left: 200px;
+}
